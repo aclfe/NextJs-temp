@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Quicking Regular';
+  src: url('../app/fonts/QuickingRegular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gobitta Regular';
+  src: url('../app/fonts/GobittaRegular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+:root {
+
+  /* Change these colors to your liking and the theme of the website
+  
+  I put two basic color themes, black and yellow in this case. The other colors are shades and also put some accents in here just in case
+  
+  Change whatever you like
+  */ 
+  
+  
+  --color-yellow: #FFD43B;
+  --color-yellow-dark: #FFC300;
+  --color-yellow-light: #FFF5CC;
+  --color-yellow-shadow: #FFE066;
+
+  --color-black: #222222;
+  --color-black-light: #444444;
+  --color-black-lighter: #888888;
+  --color-black-bg: #181818;
+
+
+  --color-white: #FFFFFF;
+  --color-grey: #F5F5F5;
+  --color-grey-dark: #E0E0E0;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Gobitta Regular', Arial, sans-serif;
+  color: var(--color-yellow);
+}
+
+body {
+  background: var(--color-black-bg);
+  color: var(--color-white);
+  margin: 0;
+  font-family: 'Quicking Regular', Arial, sans-serif;
+}
