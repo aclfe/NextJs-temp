@@ -25,18 +25,18 @@ NextJs-temp/
 │   └── ...static assets (images, icons, etc.)
 ├── src/
 │   ├── app/
-│   │   ├── **layout.tsx**      # Root layout 
-│   │   ├── **globals.css**     # Global CSS, theme variables, font imports. (Change these how you like)
+│   │   ├── layout.tsx              # Root layout 
+│   │   ├── globals.css             # Global CSS, theme variables, font imports. (Change these how you like)
 │   ├── components/
-│   │   ├── **Navbar.tsx**      # Navigation bar (site-wide)
-│   │   ├── **Footer.tsx**      # Footer (site-wide)
-│   │   ├── **Logobar.tsx**     # Logo/settings bar (site-wide)
-│   │   ├── styles/          # Folder for storing component's css files.  
-|   |   |   ├── **Navbar.module.css** # The css file for the Navbar component. 
-|   |   |   ├── **Logobar.module.css** # The css file for the Logobar component. 
-|   |   |   ├── **Footer.module.css** # The css file for the Footer component. 
+│   │   ├── Navbar.tsx              # Navigation bar (site-wide)
+│   │   ├── Footer.tsx              # Footer (site-wide)
+│   │   ├── Logobar.tsx             # Logo/settings bar (site-wide)
+│   │   ├── styles/                     # Folder for storing component's css files.  
+|   |   |   ├── Navbar.module.css   # The css file for the Navbar component. 
+|   |   |   ├── Logobar.module.css  # The css file for the Logobar component. 
+|   |   |   ├── Footer.module.css   # The css file for the Footer component. 
 │   ├── fonts/
-│   │   ├── **QuickingRegular.otf**     # Font for body (add more fonts as you wish. I personally love these)
-│   │   ├── **GobittaRegular.otf**      # Font for heading text 
+│   │   ├── QuickingRegular.otf     # Font for body (add more fonts as you wish. I personally love these)
+│   │   ├── GobittaRegular.otf      # Font for heading text 
 │   ├── pages/ # Add whatever pages you need here
 ```
