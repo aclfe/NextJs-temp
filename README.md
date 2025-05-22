@@ -18,6 +18,7 @@ Then in order to simply run the program, you type
 
 First, let's look at the important files in the folder structure:
 
+```
 NextJs-temp/
 ├── README.md
 ├── public/
@@ -38,4 +39,4 @@ NextJs-temp/
 │   │   ├── **QuickingRegular.otf**     # Font for body (add more fonts as you wish. I personally love these)
 │   │   ├── **GobittaRegular.otf**      # Font for heading text 
 │   ├── pages/ # Add whatever pages you need here
-
+```
